@@ -10,7 +10,7 @@ RELEASE_TAG_PACKAGE_NAME="dyndnsupdater"
 
 UPSTREAM_PACKAGE_NAME="dyndnsupdater"
 UPSTREAM_VERSION_CONFIG_KEY="DYNDNSUPDATER_VERSION"
-UPSTREAM_GIT_REPO="https://github.com/Tuxdude/dyndnsupdater"
+UPSTREAM_GIT_REPO="https://github.com/tuxgal/dyndnsupdater"
 
 TEST_TYPE="background"
 TEST_CONTAINER_TYPE="dyndnsupdater"

@@ -27,7 +27,7 @@ RUN --mount=type=bind,target=/scripts,from=with-scripts,source=/scripts \
         ${GROUP_NAME:?} \
         ${GROUP_ID:?} \
         --create-home-dir \
-    && homelab install-tuxdude-go-package Tuxdude/dyndnsupdater ${DYNDNSUPDATER_VERSION#v} \
+    && homelab install-tuxgal-go-package tuxgal/dyndnsupdater ${DYNDNSUPDATER_VERSION#v} \
     # Copy the start-dyndnsupdater.sh script. \
     && cp /scripts/start-dyndnsupdater.sh /opt/dyndnsupdater \
     && ln -sf /opt/dyndnsupdater/start-dyndnsupdater.sh /opt/bin/start-dyndnsupdater \

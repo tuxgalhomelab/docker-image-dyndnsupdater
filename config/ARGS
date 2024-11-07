@@ -1,7 +1,7 @@
-BASE_IMAGE_NAME=tuxdude/homelab-base
+BASE_IMAGE_NAME=tuxgal/homelab-base
 BASE_IMAGE_TAG=master
 USER_NAME=dyndnsupdater
 GROUP_NAME=dyndnsupdater
 USER_ID=16016
 GROUP_ID=16016
-DYNDNSUPDATER_VERSION=v0.1.1
+DYNDNSUPDATER_VERSION=v0.2.0
